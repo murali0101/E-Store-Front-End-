@@ -1,13 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import "./index.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Provider as ReduxProvider } from "react-redux";
+import { store } from "./redux/store/store";
+import axios from "axios";
+import { theme } from "./theme";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+axios.defaults.baseURL = "http://localhost:5600/";
+
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider theme={theme}>
+      <ReduxProvider store={store}>
+        <Router>
+          <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+          <App />
+        </Router>
+      </ReduxProvider>
+    </ChakraProvider>
   </React.StrictMode>
 );
 
