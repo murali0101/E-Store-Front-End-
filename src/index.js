@@ -9,9 +9,9 @@ import { store } from "./redux/store/store";
 import axios from "axios";
 import { theme } from "./theme";
 
-axios.defaults.baseURL = "http://localhost:5600/";
-
 import reportWebVitals from "./reportWebVitals";
+axios.defaults.baseURL = "https://e-store-01.herokuapp.com/";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
