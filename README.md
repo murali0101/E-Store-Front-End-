@@ -1,70 +1,215 @@
-# Getting Started with Create React App
+<h1 align="center">E-Store</h1> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">It's a MERN Stack E-commerce web application with all the major functionalities</h2>
 
-## Available Scripts
+<br />
+<p align="center">
+    <img src="https://img.shields.io/badge/React_(17.0.2)-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
+    <img src="https://img.shields.io/badge/Redux_(4.1.1)-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="redux" />
+    <img src="https://img.shields.io/badge/Chakra%20UI-3bc7bd?style=for-the-badge&logo=chakraui&logoColor=white" alt="chakra-ui"/>
+    <img src="https://img.shields.io/badge/Rest_API-02303A?style=for-the-badge&logo=react-router&logoColor=white" alt="restAPI"/>
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/>   
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="nodejs" />
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="expressjs"/>
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb"/>
+</p>
 
-In the project directory, you can run:
+<h3 align="center"><a href="https://e-store-01.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
 
-### `npm start`
+<p align="center"> 
+    <br />&#10023;
+    <a href="#Demo">View Demo</a>   &#10023;  
+    <a href="https://github.com/murali0101/E-Store-Front-End-/issues">Report Bug</a>    &#10023;
+    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;    
+    <a href="#Author">Author</a> &#10023;
+  </p>
+  
+  E-Store is an e-commerce web application that allows you to buy shoes & clothes online. It has a variety of categories, just visit the product listing page and you will see all the products, apply filters as per your need and in just a few clicks you can buy any products from the website.
+  
+ 
+  
+  
+  <br />
+  
+  ## Screens ( All screens are responsive along with Dark Mode)
+   - Homepage
+   - Product Listing Page with Filters
+   - Product Description Page
+   - Cart Management
+   - Wishlist/Favourites Management
+   - Checkout - Address Management
+   - Login / Logout
+   - Signup
+   - Order Summary
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🚀 Features
+- Login/Signup User Account
+- Product Sorting Based on Price, Ratings, Namings
+- Product Filters Based on Gender, Category, Grid View
+- Products Pagination (Default 6 Products Per Page)
+- Products Pagination Change Button (can set 4 products, 6 products or 8 products per page)
+- Wishlist Add/Remove Items
+- From wishlist to directly Add-to-Cart feature
+- Cart Add/Remove Items
+- Cart Update Quantities
+- Address Management
+- Order Summary
+- Coupons are provided for the discount
+- Order details of all ordered item
+- Dark mode is available
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Glimpses of E-Store 🙈 :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<table>
+  <tr>
+    <td><img src="" alt="home" /></td>
+    <td><img src="" alt="signup" /></td>
+  </tr>
+  <tr>
+    <td><img src="" alt="products" /></td>
+    <td><img src="" alt="product-details" /></td>
+  </tr>
+  <tr>
+    <td><img src="" alt="wishlist" /></td>
+    <td><img src="" alt="cart" /></td>
+  </tr>
+  <tr>
+    <td><img src="" alt="checkout" /></td>
+    <td><img src="" alt="order-summary" /></td>
+  </tr>
+</table>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Test Coupon Codes
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MASAI10        (for 10% Off)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+MASAI20        (for 20% Off)
 
-## Learn More
+MASAI30        (for 30% Off)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+MASAI40        (for 40% Off)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MASAI50        (for 50% Off)
 
-### Code Splitting
+MASAI60        (for 60% Off)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+<br />
 
-### Analyzing the Bundle Size
+## Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project was built using React v 18.2.0, Redux v 4.2.0, Chakra UI, CSS, JavaScript, Rest API, Node JS, Express and MongoDB. It is an e-commerce web application and for running on your local environment you should follow these guidelines.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Prerequisites
+
+- NPM 
+- Node JS
+- MongoDB
+
+### Setup
+
+
+The project repository can be found in [GitHub link](https://github.com/murali0101/E-Store-Front-End-) or just clone the project using this command. 
+
+
+```
+Using HTTPS
+
+# git clone https://github.com/murali0101/E-Store-Front-End-.git
+```
+
++ Open terminal on your workspace with
+
+```
+cd /home/workspace/E-Store
+```
+
+
+## Install
+
+Install NPM
+
+Check that you have node and npm installed
+
+To check if you have Node.js installed, run this command in your terminal:
+
+
+```
+node -v
+```
+
+To confirm that you have npm installed you can run this command in your terminal:
+
+
+```
+npm -v
+```
+
+To confirm that you have MongoDB installed you can run this command in your terminal:
+
+
+```
+mongo -v
+```
+
+
+To install all the dependences of the project, run the following command:
+
+
+```
+cd E-Store-Front-End-
+
+npm install
+
+cd ../
+
+cd E-Store-Back-End-
+
+npm install
+```
+
+
+To run the application got to the client folder and run the following command:
+
+```
+npm start
+```
+
+### Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file in server folder
+
+`MONGO_USER_NAME`
+
+`MONGO_PASSWORD`
+
+`MONGO_DB_NAME`
+
+`JWT_SECRET_KEY`
+
+### Tools used on this project
+
+- Visual Studio Code
+- create-react-app template
+- MongoDB compass
+
