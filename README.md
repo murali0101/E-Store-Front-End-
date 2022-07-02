@@ -26,7 +26,8 @@
   
   E-Store is an e-commerce web application that allows you to buy shoes & clothes online. It has a variety of categories, just visit the product listing page and you will see all the products, apply filters as per your need and in just a few clicks you can buy any products from the website.
   
- 
+ ![image](https://user-images.githubusercontent.com/66964293/177009223-d32072c4-0f43-423a-b7bd-f7ec67962609.png)
+
   
   
   <br />
@@ -68,22 +69,23 @@
 ## Glimpses of E-Store 🙈 :
 
 
+
 <table>
   <tr>
-    <td><img src="" alt="home" /></td>
-    <td><img src="" alt="signup" /></td>
+    <td><img src="https://user-images.githubusercontent.com/66964293/177009257-5ceea6a3-4af4-4f00-a75c-372ded138207.png" alt="home" /></td>
+    <td><img src="https://user-images.githubusercontent.com/66964293/177009269-c2aab821-9b9d-40fe-a830-7c692fba53bf.png" alt="signup" /></td>
   </tr>
   <tr>
-    <td><img src="" alt="products" /></td>
-    <td><img src="" alt="product-details" /></td>
+    <td><img src="https://user-images.githubusercontent.com/66964293/177009317-d94482c5-6aba-45dc-a970-ba642ef27dc3.png" alt="products" /></td>
+    <td><img src="https://user-images.githubusercontent.com/66964293/177009327-866b1a79-c785-4c2e-9622-8441d3852cdc.png" alt="product-details" /></td>
   </tr>
   <tr>
-    <td><img src="" alt="wishlist" /></td>
-    <td><img src="" alt="cart" /></td>
+    <td><img src="https://user-images.githubusercontent.com/66964293/177009433-fa18d2e5-fa61-4dbc-8ced-bd45712a463a.png" alt="wishlist" /></td>
+    <td><img src="https://user-images.githubusercontent.com/66964293/177009453-171444c1-8712-4718-9ad9-fa2c972c4b68.png" alt="cart" /></td>
   </tr>
   <tr>
-    <td><img src="" alt="checkout" /></td>
-    <td><img src="" alt="order-summary" /></td>
+    <td><img src="https://user-images.githubusercontent.com/66964293/177009531-131ba3b1-2f49-434b-9305-33cd554c2502.png" alt="checkout" /></td>
+    <td><img src="https://user-images.githubusercontent.com/66964293/177009503-2242b236-853e-45c6-951b-a4efbedb8ab3.png" alt="order-summary" /></td>
   </tr>
 </table>
 
@@ -129,19 +131,21 @@ This project was built using React v 18.2.0, Redux v 4.2.0, Chakra UI, CSS, Java
 ### Setup
 
 
-The project repository can be found in [GitHub link](https://github.com/murali0101/E-Store-Front-End-) or just clone the project using this command. 
+The project repository can be found in [E-Store-Front-End- GitHub link](https://github.com/murali0101/E-Store-Front-End-) and [ E-Store-Back-End- GitHub link](https://github.com/murali0101/-E-Store-Back-End-) or just clone the project using this command. 
 
 
 ```
 Using HTTPS
 
 # git clone https://github.com/murali0101/E-Store-Front-End-.git
+
+# git clone https://github.com/murali0101/-E-Store-Back-End-.git
 ```
 
 + Open terminal on your workspace with
 
 ```
-cd /home/workspace/E-Store
+cd /home/workspace/E-Store-Front-End-.git
 ```
 
 
