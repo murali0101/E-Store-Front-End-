@@ -14,7 +14,6 @@ export const Login = () => {
     const handleChange = ({ target: { name, value } }) => {
         setLogin({ ...login, [name]: value });
     }
-
     const handleSubmit = () => {
         dispatch(loginRequest(login, toast, navigate));
     }
