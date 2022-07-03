@@ -1,4 +1,4 @@
-import { Button, Center, Flex, Heading, Spacer, useColorMode } from "@chakra-ui/react";
+import { Button, Center, Flex, Heading,Circle ,Spacer, useColorMode } from "@chakra-ui/react";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { setItem } from "../../utils/sessionStorage";
@@ -13,7 +13,7 @@ import { CgDisplayGrid } from 'react-icons/cg';
 export const Navbar = () => {
 
     const { colorMode, toggleColorMode } = useColorMode();
-
+    
     const dispatch = useDispatch();
     const { token, user } = useSelector((state) => state.authReducer, shallowEqual);
 
@@ -34,8 +34,9 @@ export const Navbar = () => {
                 <Center>
                     <NavButton name={<BigIcon label={'Home'} icon={FiHome} />} path={'/'} />
                     <NavButton onClick={handleGenderChange} name={<BigIcon label={'All Products'} icon={CgDisplayGrid} />} path={'/products'} />
-
-                    <NavButton name={<BigIcon label={'Favourite'} icon={BsHeart} />} path={'/favourite'} />
+    
+                        <NavButton name={<BigIcon label={'Favourite'} icon={BsHeart} />} path={'/favourite'} />
+                        
                     <NavButton name={<BigIcon label={'Cart'} icon={BsCart} />} path={'/cart'} />
 
                     <Button px={'0px'} borderRadius={'50%'} border={'none'} onClick={toggleColorMode}>
