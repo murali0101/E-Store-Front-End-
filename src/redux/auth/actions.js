@@ -29,7 +29,8 @@ export const signupRequest = (payload, toast, navigate) => async (dispatch) => {
 
 export const loginRequest = (payload, toast, navigate) => async (dispatch) => {
     try {
-        let res = await axios.post("/login", payload);
+        
+        let res = await axios.post("/signin", payload);
         deleteKeyFromObject(res.data.user, "password");
         dispatch(getTokenSuccess(res.data));
         setItemToLocal("token", res.data.token);
