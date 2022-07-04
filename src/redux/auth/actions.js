@@ -36,7 +36,7 @@ export const loginRequest = (payload, toast, navigate) => async (dispatch) => {
         setItemToLocal("token", res.data.token);
         setItemToLocal("user", res.data.user);
         notify(toast, 'Login Successfully', 'success');
-        navigate(-1);
+        navigate(-2);
     } catch (err) {
         console.log(err.response.data);
         notify(toast, err.response.data.message, 'error');
