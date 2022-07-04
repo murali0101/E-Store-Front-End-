@@ -20,21 +20,21 @@ export const Home = () => {
                 <Section
                     gender={'men'}
                     title={"Men's Products"}
-                    path={'/category/men'}
+                
                     img={"home/men.png"}
                 />
 
                 <Section
                     gender={'women'}
                     title={"Women's Products"}
-                    path={'/category/women'}
+                    
                     img={"home/women.png"}
                 />
 
                 <Section
                     gender={'kids'}
                     title={"Kid's Products"}
-                    path={'/category/kids'}
+                  
                     img={"home/kids.png"}
                 />
 
