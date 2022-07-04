@@ -91,7 +91,7 @@ export const signupValidator = (obj, toast) => {
     const { name, mobile, email, password } = obj;
     let isEmail = email.split("").lastIndexOf("@");
     let isEmailDot = email.split("").lastIndexOf(".");
-
+   
     if (name.length <= 3) {
         notify(toast, "Name length should be greater then 3 alphabets ", "error");
         return false;
