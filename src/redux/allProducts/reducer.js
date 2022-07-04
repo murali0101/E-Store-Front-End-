@@ -31,6 +31,7 @@ export const allProductsReducer = (state = initState, { type, payload }) => {
             return { ...state, grid: payload.grid, size: payload.size };
         case SET_PAGE:
             return { ...state, page: state.page + payload };
+       
         case RESET_FILTER:
             return { ...state, isSort: null, isGender: "allProducts", category: "allCategory", grid: 3, size: 6, page: 1 };
         default:
