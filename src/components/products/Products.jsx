@@ -36,7 +36,7 @@ export const Products = () => {
 
     useEffect(() => {
         dispatch(getAllDataRequest(page, setlimit, size, isGender, category, isSort, setTotalProducts, grid, reset, setReset, toast));
-    }, [page, isGender, setlimit, isSort, dispatch, size, category, grid, reset, toast]);
+    }, [page, isGender, limit, isSort, size, category, grid, reset, toast]);
 
 
     return isLoading ? (
